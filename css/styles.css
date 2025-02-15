@@ -1,2 +1,6 @@
 @import 'Global.css';
 @import 'Main.css';
+
+.col {
+    border:1px solid black;
+}
