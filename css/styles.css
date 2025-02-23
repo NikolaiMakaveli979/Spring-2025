@@ -8,5 +8,9 @@ body {
 
 .blinn-fa-icon {
     font-size: 80px;
-    color: purple;
+    color: rgb(148, 147, 148);
+}
+
+.blinn-fa-icon {
+    background-color: var(--secondaryColor) !important;
 }
