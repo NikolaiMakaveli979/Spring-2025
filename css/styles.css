@@ -16,10 +16,11 @@ p {
     padding: 50px:
 }
 
-.paragraph-one {
+.paragraph-one-img {
     postion: relative;
     float: right;
     max-width: 350px
     width: 100%;
     height: auto;
+    padding-right: 15px;
 }
