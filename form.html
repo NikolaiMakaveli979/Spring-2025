@@ -36,6 +36,50 @@
               <input type="text" id="first-name" name="firstName" />
             </div>
 
+            <!-- last name-->
+                         
+            <div>
+                <label for="last-name">last Name</label>
+                <input type="text" id="first-name" name="lastName" />
+            </div>
+
+            <!-- age - number -->
+        <div>
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="18" max="120"/>
+</div>
+            <!-- email-->
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" />
+            </div>
+            <!-- phone -->
+            <div>
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" placeholder="(###) ###-####"/>
+            </div>
+
+            <!--start date - date -->
+            <div>
+              <label for="start-date">Start Date</label>
+              <input type="date" name="startDate" required />
+            </div>
+            <!-- Tshirt - Select field -->
+            <div>
+              <label for="tshirt">T-shirt Size</label>
+              <select id="tshirt" required>
+                <option value="">Select T-shirt size</option>
+                <option value="XXS">XXS</option>
+                <option value="XS">XS</option>
+                <option value="s">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option> 
+                <option value="XXL">XXL</option>
+              </select>
+              <input type="text" name="custom" placeholder="Please input a custom size" disabled />
+            </div>
+
             <!-- submit button-->
           <div>
           <input type="submit" name="submit" value="Volunteer Now" />
@@ -59,6 +103,10 @@
 
       <!-- local js file with footer-->
       <script src="components/js/footer.js"></script>
+
+
+        <!-- local js file for form-->
+        <script src="js/form.js"></script>
     </section>
   </body>
 </html>
