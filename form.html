@@ -53,17 +53,19 @@
               <label for="email">Email</label>
               <input type="email" name="email" />
             </div>
+
             <!-- phone -->
             <div>
               <label for="phone">Phone</label>
-              <input type="text" name="phone" placeholder="(###) ###-####"/>
+              <input type="text" name="phone" id="phone" placeholder="(###) ###-####"/>
             </div>
 
             <!--start date - date -->
             <div>
               <label for="start-date">Start Date</label>
-              <input type="date" name="startDate" required />
+              <input type="date" name="startDate" id="startdate" required />
             </div>
+
             <!-- Tshirt - Select field -->
             <div>
               <label for="tshirt">T-shirt Size</label>
@@ -81,9 +83,15 @@
               <input type="text" name="custom" placeholder="Please input a custom size" disabled />
             </div>
 
+            <!-- tshirt color - color -->
+             <div>
+                <label for="color">Tshirt Color</label>
+                <input type="color" name="color" id="color" />
+             </div>
+
             <!-- submit button-->
           <div>
-          <input type="submit" name="submit" value="Volunteer Now" />
+          <input type="submit" name="submit" value="Volunteer Now" class="submit"/>
         </div>
         </form>
       </div>
