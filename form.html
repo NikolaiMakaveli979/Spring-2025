@@ -31,43 +31,43 @@
         <form>
           <div class="row">
             <!-- first name-->
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="first-name">First Name</label>
               <input type="text" id="first-name" name="firstName" />
             </div>
 
             <!-- last name-->
-                         
-            <div>
-                <label for="last-name">last Name</label>
-                <input type="text" id="first-name" name="lastName" />
+
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label for="last-name">last Name</label>
+              <input type="text" id="first-name" name="lastName" />
             </div>
 
             <!-- age - number -->
-        <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="age">Age</label>
-              <input type="number" id="age" name="age" min="18" max="120"/>
-</div>
+              <input type="number" id="age" name="age" min="18" max="120" />
+            </div>
             <!-- email-->
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="email">Email</label>
               <input type="email" name="email" />
             </div>
 
             <!-- phone -->
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="phone">Phone</label>
-              <input type="text" name="phone" id="phone" placeholder="(###) ###-####"/>
+              <input type="text" name="phone" id="phone" placeholder="(###) ###-####" />
             </div>
 
             <!--start date - date -->
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="start-date">Start Date</label>
               <input type="date" name="startDate" id="startdate" required />
             </div>
 
             <!-- Tshirt - Select field -->
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="tshirt">T-shirt Size</label>
               <select id="tshirt" required>
                 <option value="">Select T-shirt size</option>
@@ -76,71 +76,68 @@
                 <option value="s">S</option>
                 <option value="M">M</option>
                 <option value="L">L</option>
-                <option value="XL">XL</option> 
+                <option value="XL">XL</option>
                 <option value="XXL">XXL</option>
                 <option value="custom">Custom</option>
               </select>
-              <input type="text" name="custom" placeholder="Please input a custom size" disabled />
+              <input type="text" id="custom" placeholder="Please input a custom size" disabled />
             </div>
 
             <!-- tshirt color - color -->
-             <div>
-                <label for="color">Tshirt Color</label>
-                <input type="color" name="color" id="color" />
-             </div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label for="color">Tshirt Color</label>
+              <input type="color" name="color" id="color" />
+            </div>
 
+            <!-- Background Check -upload file-->
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label for="background-check">Background Check</label>
+              <input type="file" id="background-check" accept=".pdf" />
+            </div>
 
-             <!-- Background Check -upload file-->
-             <div>
-<label for="background-check">Background Check</label>
-<input type="file" id="background-check" accept=".pdf" />
-             </div>
+            <!--participating in - radio buttons-->
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <strong>Participating In</strong><br />
 
-<!--participating in - radio buttons-->
-<div>
-  <strong>Participating In</strong><br />
+              <input type="radio" name="participating" id="fashion-show" value="fashion-show" required />
+              <label for="fashion-show">Fashion Show</label>
 
-  <input type="radio" name="participating" id="fashion-show" value="fashion-show" required />
-  <label for="fashion-show">Fashion Show</label>
+              <input type="radio" name="participating" id="donations" value="donations" required />
+              <label for="fashion-show">Donations</label>
 
-  <input type="radio" name="participating" id="donations" value="donations" required />
-  <label for="fashion-show">Donations</label>
+              <input type="radio" name="participating" id="Expectator" value="Expectator" required />
+              <label for="Expectator">Expectator</label>
+            </div>
 
-  <input type="radio" name="participating" id="Expectator" value="Expectator" required/>
-  <label for="Expectator">Expectator</label>
+            <!-- time of day - checkboxe fields-->
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <strong>Time of Day</strong><br />
 
-</div>
+              <input type="checkbox" name="timeofday: id="time-of-day-morning" value="morning"required />
+              <label for="time-of-day-morning">Morning</label>
 
-<!-- time of day - checkboxe fields-->
- <div>
-<strong>Time of Day</strong><br />
+              <input type="checkbox" name="timeofday: id="time-of-day-afternoon" value="afternoon"required />
+              <label for="time-of-day-afernonn">Afternoon</label>
 
-<input type="checkbox" name="timeofday: id="time-of-day-morning" value="morning"required />
-<label for="time-of-day-morning">Morning</label>
+              <input type="checkbox" name="timeofday: id="time-of-day-evening" value="evening"required />
+              <label for="time-of-day-evening">Evening</label>
+            </div>
+            <!-- comments -->
+            <div class="col-12"></div>
+            > <label for="about-you">Tell us about you</label> <br />
+            <textarea name="about-you" id="about-you"></textarea>
+          </div>
 
-<input type="checkbox" name="timeofday: id="time-of-day-afternoon" value="afternoon"required />
-<label for="time-of-day-afernonn">Afternoon</label>
+          <!-- terms and conditions - checkbox with toggle switch-->
+          <div class="col-12">
+            <input type="checkbox" name="terms" id="terms-and-conditions" value="yes" />
+            <label for="terms-and-conditions">I agree to the terms and conditions</label>
+          </div>
 
-<input type="checkbox" name="timeofday: id="time-of-day-evening" value="evening"required />
-<label for="time-of-day-evening">Evening</label>
- </div>
-<!-- comments -->
-<div>
-  <label for="about-you">Tell us about you</label> <br />
-  <textarea name="about-you" id="about-you"></textarea>
-</div>
-
-<!-- terms and conditions - checkbox with toggle switch-->
- <div>
-  <input type="checkbox" name="terms" id="terms-and-conditions" value="yes"/>
-  <label for="terms-and-conditions">I agree to the terms and conditions</label>
-
- </div>
-
-            <!-- submit button-->
-          <div>
-          <input type="submit" name="submit" value="Volunteer Now" class="submit"/>
-        </div>
+          <!-- submit button-->
+          <div class="col-12">
+            <input type="submit" name="submit" value="Volunteer Now" class="submit" />
+          </div>
         </form>
       </div>
       <!-- end form -->
@@ -161,9 +158,8 @@
       <!-- local js file with footer-->
       <script src="components/js/footer.js"></script>
 
-
-        <!-- local js file for form-->
-        <script src="js/form.js"></script>
+      <!-- local js file for form-->
+      <script src="js/form.js"></script>
     </section>
   </body>
 </html>
