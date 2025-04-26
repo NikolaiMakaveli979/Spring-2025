@@ -15,7 +15,7 @@ console.clear();
 
 
 ////show/hide///////////
-document.getElementById("t-shirt").addEventListener('change', checkTshirt);
+document.getElementById("tshirt").addEventListener('change', checkTshirt);
 
 function checkTshirt() {
   
