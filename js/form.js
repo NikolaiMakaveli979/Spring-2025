@@ -19,7 +19,7 @@ document.getElementById("tshirt").addEventListener('change', checkTshirt);
 
 function checkTshirt() {
   
-  var tShirt = document.getElementById('t-shirt').value;
+  var tShirt = document.getElementById('tshirt').value;
   var custom = document.getElementById('custom');
   
   if (tShirt === 'CUSTOM') {   
